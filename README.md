@@ -1,16 +1,42 @@
-# habit_app_202
+# Habit Tracker
 
-A new Flutter project.
+Habit Tracker is a mobile application developed using Flutter. It helps users to track their habits and maintain a healthy lifestyle.
+
+## Features
+
+- Create, edit, and delete habits.
+- Track habit completion with a visual heatmap.
+- Toggle between light and dark themes.
+- Persistent data storage with Isar database.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter SDK
+- Dart
+- Android Studio or VS Code
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Installation
+
+1. Clone the repo
+2. Navigate into the project directory
+3. Install dependencies
+4. Run the app
+
+## Built With
+
+- [Flutter](https://flutter.dev/)
+- [Isar](https://isar.dev/)
+- [Provider](https://pub.dev/packages/provider)
+
+## Authors
+
+- Timur
+- Sabina
+
+## Version
+
+HabitTracker v1.0.0
