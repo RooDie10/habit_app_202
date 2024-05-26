@@ -34,8 +34,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Authors
 
-- Timur
-- Sabina
+- [Tsimur](https://github.com/RooDie10)
+- [Sabina](https://github.com/ChersobiusSignatus)
 
 ## Version
 
