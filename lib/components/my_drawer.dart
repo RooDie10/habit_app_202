@@ -14,6 +14,13 @@ class MyDrawer extends StatelessWidget {
       child: Column(
         children: <Widget>[
           // Spacer to push the CupertinoSwitch and the text to the bottom
+          // Add logo
+          Padding(
+            padding: const EdgeInsets.only(top: 70.0),
+            child: Image.asset('assets/habit tracker.png', width: 200, height: 200), // Adjust size as needed
+          ),
+          // Add space below the logo
+          SizedBox(height: 20), // Adjust the height as needed
           Spacer(),
 
           // Align the CupertinoSwitch to the bottom
