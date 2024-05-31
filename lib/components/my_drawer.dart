@@ -10,7 +10,7 @@ class MyDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Drawer(
-      backgroundColor: Theme.of(context).colorScheme.background,
+      backgroundColor: Theme.of(context).colorScheme.surface,
       child: Column(
         children: <Widget>[
           // Spacer to push the CupertinoSwitch and the text to the bottom
@@ -41,13 +41,13 @@ class MyDrawer extends StatelessWidget {
                   Text(
                     'HabitTracker v1.0.0',
                     style: TextStyle(
-                      color: Theme.of(context).textTheme.bodyText1?.color,
+                      color: Theme.of(context).textTheme.bodyLarge?.color,
                     ),
                   ),
                   Text(
                     'made by Timur and Sabina',
                     style: TextStyle(
-                      color: Theme.of(context).textTheme.bodyText1?.color,
+                      color: Theme.of(context).textTheme.bodyLarge?.color,
                     ),
                   ),
                 ],
